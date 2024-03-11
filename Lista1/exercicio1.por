@@ -3,16 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		const real rendimento = 10.0
-		real distancia, litros 
-		cadeia cidade
+		cadeia nome, sobrenome
 
-		escreva("Qual a cidade de destino?")
-		leia (cidade)
-		escreva("Qual a distancia em km dessa cidade?")
-		leia (distancia)
-		litros = distancia/rendimento
-		escreva ("A cidade do ", cidade, "que está a " ,distancia, "km, custará " ,litros, "litros para chegar")
+		escreva ("Informe o seu nome: ")
+		leia (nome)
+		escreva ("Informe o seu sobrenome: ")
+		leia (sobrenome)
+		escreva ("O seu nome completo é: ", nome, " ", sobrenome)
+	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 382; 
+ * @POSICAO-CURSOR = 231; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

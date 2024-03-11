@@ -3,20 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-	inteiro meses = 0 
-	real valorDesejado, valor 
-	const real taxa = 1.1
-	escreva("Digite o valor que irá depositar: ")
-	leia(valor)
-	escreva("Digite o valor desejado: ")
-	leia(valorDesejado)
-	enquanto(valorDesejado > valor){
-		meses = meses + 1
-		valor = valor*1.1  
-	}
-	escreva("O valor, "+ valor + " será recebido após " + meses + "meses")
-	
-	
+		inteiro resto, resp
+		escreva ("Digite um número: ")
+		leia (resp)
+		resto = resp % 2
+		se (resto == 1) {
+			escreva ("O numero ", resp, " é impar")
+		} se (resto == 0) {
+			escreva ("O numero ", resp, " é par")
+		}
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -24,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 84; 
+ * @POSICAO-CURSOR = 47; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
